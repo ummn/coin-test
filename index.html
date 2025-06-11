@@ -200,6 +200,11 @@
       overflow-x: auto;
       white-space: nowrap;
       padding: 10px;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE 10+ */
+    }
+    .carousel::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
     }
     .carousel img {
       height: 100px;
